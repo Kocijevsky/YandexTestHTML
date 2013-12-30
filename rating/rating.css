@@ -1,0 +1,55 @@
+.rating
+{
+    display: inline-block;
+}
+
+.rating:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+.rating_item
+{
+    display: block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    float: right;
+    cursor: pointer;
+}
+
+.rating_number
+{
+    margin-top: 20px;
+    display: none;
+}
+
+.star_image
+{
+    background: url("rating_star.png") no-repeat bottom;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.rating_radio
+{
+    float: right;
+    margin-left: -28px;
+    display: none;
+}
+
+.rating_radio:checked ~ .rating_item>.star_image
+{
+    background-position: top;
+}
+
+.rating_item:hover>.star_image
+{
+    background-position: top;
+}
+
+.rating_item:hover ~.rating_item>.star_image
+{
+    background-position: top;
+}
