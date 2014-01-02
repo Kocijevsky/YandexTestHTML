@@ -25,31 +25,35 @@
     display: none;
 }
 
-.star_image
+.rating_image
 {
-    background: url("rating_star.png") no-repeat bottom;
     position: absolute;
     height: 100%;
     width: 100%;
 }
+
 .rating_radio
 {
     float: right;
-    margin-left: -28px;
+    margin-left: -20px;
     display: none;
 }
 
-.rating_radio:checked ~ .rating_item>.star_image
+.rating_radio:checked ~ .rating_item>.rating_image
 {
     background-position: top;
 }
 
-.rating_item:hover>.star_image
+.rating_item:hover > .rating_image
 {
     background-position: top;
 }
 
-.rating_item:hover ~.rating_item>.star_image
+.rating_item:hover ~.rating_item>.rating_image
 {
     background-position: top;
+}
+
+.rating_item:checked ~.rating_item>.rating_image:hover {
+    background: black;
 }

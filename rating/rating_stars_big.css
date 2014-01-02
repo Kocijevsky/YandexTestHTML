@@ -1,0 +1,15 @@
+.rating_image_stars_big
+{
+    background: url("rating_stars_big.png") no-repeat bottom;
+}
+
+.rating_item_big
+{
+    width: 30px;
+    height: 30px;
+}
+
+.rating_number_big
+{
+    font-size: 2em;
+}

@@ -1,13 +1,18 @@
 .rating_radio
 {
-    display: block;
+    display: inline;
 }
 
 .rating_number
 {
     display: block;
 }
-.star_image
+.rating_image
 {
     display: none;
+}
+
+.rating_item
+{
+    height: 30px;
 }
