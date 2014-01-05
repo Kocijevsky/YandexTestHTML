@@ -4,9 +4,11 @@
         $(this).find(".progressbar_text").text(value);
         $(this).find(".progressbar_strip").width(value);
     };
+
+
 })(jQuery);
 
-$(document).ready(function () {
+startProgress = function () {
     var progressValue,
         interval = 500,
         progress = 0;
@@ -22,5 +24,6 @@ $(document).ready(function () {
         }
 
     }, interval);
+};
 
-});
+$(".js_startprogress").on("click",startProgress);
