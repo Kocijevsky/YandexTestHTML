@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="modules/custom_btn/custom_btn_big.css"/>
     <link rel="stylesheet" href="modules/custom_btn/custom_btn_max150.css"/>
     <link rel="stylesheet" href="modules/browsers/browsers.css"/>
+    <link rel="stylesheet" href="modules/article/article.css"/>
 </head>
 <body>
 <!--[if lt IE 9]>
 <link rel="stylesheet" href="modules/rating/rating_ie7-8.css"/>
 <link rel="stylesheet" href="modules/rating/rating_stars_big_ie7-8.css"/>
 <![endif]-->
-
+<div class="layout">
 <div class="rating">
     <form>
         <input class="rating_radio" type="radio" name="rating" id="s5" value="5"/>
@@ -136,39 +137,96 @@
 
 <ul class="browsers">
     <li class="browsers_browser">
-        <img alt="" src="modules/browsers/browsers_image_chrome.png1" class="browsers_image"/>
-    <div class="browsers_noimage">
-        <span class="browsers_noimage_green">Ch</span><span class="browsers_noimage_red">ro</span><span
-            class="browsers_noimage_yellow">me</span>
-    </div>
+        <img alt="" src="modules/browsers/browsers_image_chrome.png" class="browsers_image"/>
+
+        <div class="browsers_noimage">
+            <span class="browsers_noimage_green">Ch</span><span class="browsers_noimage_red">ro</span><span
+                class="browsers_noimage_yellow">me</span>
+        </div>
     </li>
     <li class="browsers_browser">
         <img alt="" src="modules/browsers/browsers_image_ff.png" class="browsers_image"/>
+
         <div class="browsers_noimage">
             <span class="browsers_noimage_orange">Firefox</span>
         </div>
     </li>
     <li class="browsers_browser">
         <img alt="" src="modules/browsers/browsers_image_opera.png" class="browsers_image"/>
+
         <div class="browsers_noimage">
             <span class="browsers_noimage_red_opera">Opera</span>
         </div>
     </li>
     <li class="browsers_browser">
         <img alt="" src="modules/browsers/browsers_image_safari.png" class="browsers_image"/>
+
         <div class="browsers_noimage">
             <span class="browsers_noimage_grey">Sfari</span>
         </div>
     </li>
     <li class="browsers_browser browsers_browser_last">
-        <img alt="" src="modules/browsers/browsers_image_ie.png1" class="browsers_image"/>
+        <img alt="" src="modules/browsers/browsers_image_ie.png" class="browsers_image"/>
+
         <div class="browsers_noimage">
             <span class="browsers_noimage_blue">Internet Explorer</span>
         </div>
     </li>
 </ul>
+
+<button class="custom_btn custom_btn_gradient gradient js_corrupt_images">
+    <div class="custom_btn_text">Corrupt images</div>
+    <div class="custom_btn_img"></div>
+</button>
+
+<div class="article">
+    <h1 class="article_header article_header_half">Тема: «Сюжетный анапест: основные моменты»
+    </h1>
+    <div class="article_column article_column_left">
+        <p class="article_column_text">Нельзя восстановить истинной хронологической последовательности событий,
+            потому что мелькание мыслей параллельно. Структура аллитерирует мелодический реформаторский пафос,
+            однако
+            дальнейшее развитие приемов декодирования мы находим в работах академика В.Виноградова. Аллюзия
+            наблюдаема.
+            Аллитерация, как бы это ни казалось парадоксальным, параллельна. Мифопорождающее текстовое устройство
+            прочно
+            вызывает эпитет, причём сам Тредиаковский свои стихи мыслил как “стихотворное дополнение” к книге
+            Тальмана.
+        </p>
+
+        <p class="article_column_text">Речевой акт традиционно осознаёт музыкальный дольник, но не рифмами.
+            Различное расположение просветляет мелодический образ, таким образом постепенно смыкается с сюжетом.
+            Силлабо-тоника, в первом приближении, просветляет мелодический ямб, таким образом в некоторых случаях
+            образуются рефрены, кольцевые композиции, анафоры.
+        </p>
+    </div>
+    <div class="article_column article_column_right">
+        <p class="article_column_text">Представленный лексико-семантический анализ является
+            психолингвистическим в
+            своей основе, но мифопорождающее
+            текстовое устройство аллитерирует мифологический генезис свободного стиха, об этом свидетельствуют
+            краткость
+            и завершенность формы, бессюжетность, своеобразие тематического развертывания.
+        </p>
+
+        <p class="article_column_text">Драма, по определению отражает брахикаталектический стих, хотя в
+            существование или актуальность этого он не верит, а моделирует собственную реальность. Лексика осознаёт
+            литературный палимпсест, об этом свидетельствуют краткость и завершенность формы, бессюжетность,
+            своеобразие
+            тематического развертывания.
+        </p>
+        <ul class="article_list">
+            <li class="article_list_item">Курит ли трупка мой</li>
+            <li class="article_list_item article_list_item_link">из трупка тфой пихтишь</li>
+            <li class="article_list_item article_list_item_dotted">Или мой кафе пил</li>
+            <li class="article_list_item">тфой в щашешка сидишь</li>
+        </ul>
+    </div>
+</div>
+</div>
 </body>
 
-<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="lib/jquery.min.js"></script>
 <script src="modules/progressbar/progressbar.js"></script>
+<script src="modules/browsers/browsers.js"></script>
 </html>
