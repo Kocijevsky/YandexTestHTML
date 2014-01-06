@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'PTSans-Regular';
+    src: url('fonts/PT_Sans-Web-Regular.eot');
+    src: url('fonts/PT_Sans-Web-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT_Sans-Web-Regular.woff') format('woff'),
+    url('fonts/PT_Sans-Web-Regular.ttf') format('truetype'),
+    url('fonts/PT_Sans-Web-Regular.svg#PTSans-Regular') format('svg');
+}
+
+.article{
+    font-family: 'PTSans-Regular',sans-serif;
+}
+
+.article_header_half
+{
+    margin-right: 60%;
+}
+
+.article_column
+{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-right: 5%;
+}
+
+.article_column_text
+{
+    text-indent: 5%;
+}
+
+.article_list
+{
+    padding: 0;
+    list-style: none;
+}
+.article_list_item:before
+{
+    content: "‒";
+    display: block;
+    position: absolute;
+    margin-left: -15px;
+}
+
+.article_list_item_link
+{
+    color: #267cee;
+    text-decoration: underline;
+}
+
+.article_list_item_dotted
+{
+
+}
