@@ -1,13 +1,19 @@
 .custom_btn
 {
     cursor: pointer;
-    border: solid 1px #dddddd;
+    border: solid 1px #ccc;
+    border-top: solid 1px  #e5e5e5;
+    border-right: solid 1px  #c6c6c6;
+    border-bottom: solid 1px  #a8a8a8;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     margin: 5px;
     padding: 2px 15px;
     background: #f2f2f2;
+    text-shadow: 1px 1px 1px #f8f8f8;
+    min-width: 80px;
+    min-height: 20px;
 }
 
 .custom_btn_gradient
@@ -39,10 +45,11 @@
 
 .custom_btn:active
 {
+    border: solid 1px #ccc;
     background: #f2f2f2;
-    -webkit-box-shadow: inset 0px 5px 15px 0px rgba(50, 50, 50, 0.5);
-    -moz-box-shadow:    inset 0px 5px 15px 0px rgba(50, 50, 50, 0.5);
-    box-shadow:         inset 0px 5px 15px 0px rgba(50, 50, 50, 0.5);
+    -webkit-box-shadow: 0px -2px 2px 0px rgba(3, 35, 214, 0.3);
+    -moz-box-shadow:    0px -2px 2px 0px rgba(3, 35, 214, 0.3);
+    box-shadow:         0px -2px 2px 0px rgba(3, 35, 214, 0.3);
 }
 
 .custom_btn:focus
@@ -50,9 +57,7 @@
     outline:none;
     border-color: #6d79b8;
 }
-.custom_btn_text{
-   display: inline-block;
-}
+
 .custom_btn_img
 {
     display: inline-block;

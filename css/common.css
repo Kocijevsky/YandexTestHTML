@@ -61,3 +61,10 @@ table {
 {
     filter: none;
 }
+
+h2
+{
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px 0;
+}
