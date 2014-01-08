@@ -9,30 +9,34 @@
 
 .article{
     font-family: 'PTSans-Regular',sans-serif;
+    width: 1000px;
+    background: url(http://img-fotki.yandex.ru/get/4714/2776.b/0_60613_ce753157_orig) no-repeat;
+    padding: 7px 0 0 25px;
 }
 
 .article_header
 {
-    font-size: 2em;
-    margin: 20px 0;
+    font-size: 24px;
+    margin: 0 0 12px 0;
+    line-height: 23px;
 }
 
 .article_header_half
 {
-    margin-right: 60%;
+    margin-right: 65%;
 }
 
 .article_column
 {
     display: inline-block;
-    width: 40%;
+    width: 350px;
     vertical-align: top;
-    margin-right: 5%;
+    line-height: 21px;
 }
 
 .article_column_text
 {
-    text-indent: 5%;
+    text-indent: 15px;
     padding: 10px 0;
 }
 
