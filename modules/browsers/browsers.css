@@ -23,13 +23,19 @@
     height: 125px;
     float: left;
     overflow: hidden;
+    text-align: center;
 }
 
 .browsers_noimage
 {
-    height: 100%;
+    line-height: 1em;
+    padding-top: 30px;
     text-align: center;
-    padding: 10px 20px;
+}
+
+.browsers_noimage_2strings
+{
+    padding-top: 20px;
 }
 
 .browsers_noimage_green
