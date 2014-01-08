@@ -11,6 +11,12 @@
     font-family: 'PTSans-Regular',sans-serif;
 }
 
+.article_header
+{
+    font-size: 2em;
+    margin: 20px 0;
+}
+
 .article_header_half
 {
     margin-right: 60%;
@@ -27,19 +33,27 @@
 .article_column_text
 {
     text-indent: 5%;
+    padding: 10px 0;
 }
 
 .article_list
 {
-    padding: 0;
+    padding: 5px 0;
     list-style: none;
 }
+
+.article_list_item
+{
+    padding: 5px 0;
+}
+
 .article_list_item:before
 {
     content: "‒";
     display: block;
     position: absolute;
     margin-left: -15px;
+    text-decoration: none;
 }
 
 .article_list_item_link
@@ -50,5 +64,5 @@
 
 .article_list_item_dotted
 {
-
+    border-bottom: dashed 1px black;
 }
